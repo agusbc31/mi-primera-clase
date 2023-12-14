@@ -1,0 +1,10 @@
+
+…
+java:S1488>"cImmediately return this expression instead of assigning it to the temporary variable "estadoRueda".(˜ƒÅşÿÿÿÿ8Èªà½Æ1
+I
+java:S1125""'Remove the unnecessary boolean literal.(“ÙÔ¼ùÿÿÿÿ8Íªà½Æ1
+I
+java:S1125-"'Remove the unnecessary boolean literal.(“ÙÔ¼ùÿÿÿÿ8Îªà½Æ1
+G	java:S1063"+Replace this use of System.out by a logger.(ß·ªÎ8Ïªà½Æ1
+I
+java:S11258"'Remove the unnecessary boolean literal.(“ÙÔ¼ùÿÿÿÿ8¹†â½Æ1

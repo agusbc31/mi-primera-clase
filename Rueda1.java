@@ -1,10 +1,9 @@
 public class Rueda1 {
-    public class Rueda {
         private int km;
         private String marca;
         private boolean invierno;
 
-        public Rueda(int km, boolean invierno){
+        public Rueda1(int km, boolean invierno){
             this.km = km;
             this.marca = "Yokohama";
             this.invierno = invierno;
@@ -40,5 +39,27 @@ public class Rueda1 {
             }
             return variable;
         }
-    }
+
+        public void imprimirEstadoRueda(){
+            String estadoInvierno;
+            if (invierno == true){
+                estadoInvierno = ("si");
+            }
+            else {
+                estadoInvierno = ("no");
+            }
+            System.out.println("Marca de las ruedas: " + marca + " || Kilometros de duracion: " + km + " || Ruedas de invierno: " + estadoInvierno);
+        }
+
+        public String estadoRueda(){
+            String estadoInvierno;
+            if (invierno == true){
+                estadoInvierno = ("si");
+            }
+            else {
+                estadoInvierno = ("no");
+            }
+            String estadoRueda = ("Marca de las ruedas: " + marca + " || Kilometros de duracion: " + km + " || Ruedas de invierno: " + estadoInvierno);
+            return estadoRueda;
+        }
 }
